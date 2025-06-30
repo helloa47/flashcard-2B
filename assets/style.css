@@ -1,6 +1,6 @@
 body{
     background-color: pink;
-    font-family: Bal jamjuree;
+    font-family: Ba1 jamjuree;
 }
 
 #conteiner {
@@ -8,7 +8,27 @@ body{
 }
 
 .cartao{
-    
+    margin: 1rem 1rem;
+    background-color:blueviolet;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+} 
+
+.cartao_conteudo {
+    text-align: center;
+
+    height: 100%;
+}
+
+.cartao_conteudo h3 {
+    background-color:lightblue;
+    text-align: left;
+    padding: 0,5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
 
 footer {
@@ -17,11 +37,11 @@ footer {
     position: fixed;
     bottom: 0;
     width:100%;
-    height:2 rem;
+    height:2rem;
 }
 
 footer{
     text-align: center;
-    font-style:0.0 rem;
-    margin-top: 0,5 rem;
+    font-style:0.0rem;
+    margin-top: 0,5rem;
 }
